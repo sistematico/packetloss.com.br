@@ -23,11 +23,3 @@ module.exports = {
       //public: 'https://localhost:8080/'
   }
 }
-
-
-chainwebpack: config => {
-  config.plugin('copy').tap(([options])=> {
-    options[0].ignore.push('some/glob')
-    return [options]
-  })
-}
