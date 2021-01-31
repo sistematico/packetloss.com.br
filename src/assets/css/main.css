@@ -198,8 +198,8 @@ a {
   .among3 { background: url("/img/bg/among-us-3-portrait.jpg") no-repeat center center fixed; } */
 
   .among1 { background: url("/img/bg/among-us-1-portrait.jpg") no-repeat center; }
-  .among2 { background: url("/img/bg/among-us-2-portrait.jpg") no-repeat center; }
-  .among3 { background: url("/img/bg/among-us-3-portrait.jpg") no-repeat center; }
+  .among2 { background: url("/img/bg/among-us-1-portrait.jpg") no-repeat center; }
+  .among3 { background: url("/img/bg/among-us-1-portrait.jpg") no-repeat center; }
 
 }
 
