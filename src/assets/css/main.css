@@ -37,10 +37,31 @@ a {
   /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
+
+  /* -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; */
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.among1 {
+  /* background-image: url("/img/bg/among-us-1.jpg"); */
+  background: url("/img/bg/among-us-1.jpg") no-repeat center center fixed; 
+}
+
+.among2 {
+  /* background-image: url("/img/bg/among-us-2.jpg"); */
+  background: url("/img/bg/among-us-2.jpg") no-repeat center center fixed; 
+}
+
+.among3 {
+  /* background-image: url("/img/bg/among-us-3.jpg"); */
+  background: url("/img/bg/among-us-3.jpg") no-repeat center center fixed; 
 }
 
 #wrapper {
@@ -114,21 +135,6 @@ a {
   opacity: 0
 }
 
-.among1 {
-  /* background-image: url("/img/bg/among-us-1.jpg"); */
-  background: url("/img/bg/among-us-1.jpg") no-repeat center center fixed; 
-}
-
-.among2 {
-  /* background-image: url("/img/bg/among-us-2.jpg"); */
-  background: url("/img/bg/among-us-2.jpg") no-repeat center center fixed; 
-}
-
-.among3 {
-  /* background-image: url("/img/bg/among-us-3.jpg"); */
-  background: url("/img/bg/among-us-3.jpg") no-repeat center center fixed; 
-}
-
 /* .background-dark {
   background-color: #363636;
 } */
@@ -186,6 +192,11 @@ a {
     background-color: transparent !important;
     background-image: none !important;
   }
+
+  .among1 { background: url("/img/bg/among-us-1-portrait.jpg") no-repeat center center fixed; }
+  .among2 { background: url("/img/bg/among-us-2-portrait.jpg") no-repeat center center fixed; }
+  .among3 { background: url("/img/bg/among-us-3-portrait.jpg") no-repeat center center fixed; }
+
 }
 
 @media (max-width: 992px) {
