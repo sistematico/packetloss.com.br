@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body, html {
+  height: 100%;
+}
+
+html { 
+  overflow-y: auto;
+}
+
+body {
+  font-family: 'Nunito', Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+a {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-end .navbar-item, .navbar-end .navbar-link {
+  /* padding: .5rem .75rem; */
+  padding: .5rem .2rem;
+}
+
+.burger {
+  color: #FFFFFF;
+}
+
+.hero {
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper {
+  flex: 1;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  position: fixed;
+  background: none;
+  height: 30px;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+
+.hero.is-dark .navbar-menu,
+.navbar-link.is-active,
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    background: transparent !important;
+}
+
+.hero.is-dark .card .title,
+.hero.is-dark .card .subtitle {
+    color: #000;
+}
+
+.nav-active {
+  color: #fff;
+}
+
+.is-transparent {
+  background-color: transparent;
+  background-image: none;
+}
+
+.discord {
+  background-color: #7289DA !important;
+  border-color: #7289DA !important;
+  color: #fff !important;
+}
+
+.steam {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: #fff !important;
+}
+
+#fullscreen {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: .8s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
+
+.among1 {
+  background-image: url("/img/bg/among-us-1.jpg");
+}
+
+.among2 {
+  background-image: url("/img/bg/among-us-2.jpg");
+}
+
+.among3 {
+  background-image: url("/img/bg/among-us-3.jpg");
+}
+
+/* .background-dark {
+  background-color: #363636;
+} */
+
+/* This used to work for the parent element of button divs */
+/* But it does not work with newer browsers, the below doesn't hide the play button parent div */
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* Old shadow dom for play button */
+*::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* New shadow dom for play button */
+/* This one works! */
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { } */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { } */
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { } */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { } */
+
+/* Fixes */
+.has-navbar-fixed-top .hero.is-fullheight {
+  min-height: calc(100vh - 3.25rem);
+}
+
+/* Media Queries */
+@media (orientation: portrait) {
+  .navbar-start, 
+  .navbar-end,
+  .navbar-items {
+    text-align: center;
+  }
+
+  .background-dark {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-start, 
+  .navbar-end,
+  .navbar-items {
+    text-align: center;
+  }
+
+  .background-dark {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+}
+
