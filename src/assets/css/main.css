@@ -11,7 +11,6 @@ html {
 body {
   font-family: 'Nunito', Avenir, Helvetica, Arial, sans-serif;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -57,7 +56,6 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  /* margin: 0; */
   margin: 30px 0 0 0;
   padding: 0;
 }
@@ -114,10 +112,6 @@ a {
 .fade-leave-active {
   opacity: 0
 }
-
-/* .background-dark {
-  background-color: #363636;
-} */
 
 /* This used to work for the parent element of button divs */
 /* But it does not work with newer browsers, the below doesn't hide the play button parent div */
