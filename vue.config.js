@@ -8,10 +8,8 @@ module.exports = {
         args[0].title = 'Packet Loss'
         return args
       }),
-      config
-        .plugin('copy')
-        .tap(([options])=> {
-          options[0].ignore.push('**/counter.txt')
+      config.plugin('copy').tap(([options])=> {
+          options[0].ignore.push('txt/counter.txt')
           return [options]
       })
   },
