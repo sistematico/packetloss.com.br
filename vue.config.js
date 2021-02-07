@@ -2,9 +2,7 @@ const fs = require('fs')
 
 module.exports = {
   chainWebpack: config => {
-    config
-      .plugin('html')
-      .tap(args => {
+    config.plugin('html').tap(args => {
         args[0].title = 'Packet Loss'
         return args
       }),
