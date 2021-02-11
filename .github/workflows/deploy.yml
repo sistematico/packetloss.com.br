@@ -20,5 +20,6 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         port: ${{ secrets.SSH_PORT }}
         script: |
-          mkdir -p /var/www/dev.packetloss.com.br && cd /var/www/dev.packetloss.com.br
+          git clone -b dev git@github.com:sistematico/packetloss.com.br.git /var/www/dev.packetloss.com.br
+          #mkdir -p /var/www/dev.packetloss.com.br && cd /var/www/dev.packetloss.com.br
           git pull
