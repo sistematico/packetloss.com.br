@@ -1,0 +1,9 @@
+*.exe
+*.msi
+*.zip
+*.gz
+*.bz2
+*.lzma
+*.zst
+*.zstd
+.github.lock
