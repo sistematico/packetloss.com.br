@@ -1,0 +1,12 @@
+[Unit]
+Description=Nuxt.js packetloss.com.br
+After=network.target
+
+[Service]
+User=nginx
+WorkingDirectory=/var/www/packetloss.com.br
+ExecStart=/usr/bin/pnpm run start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
