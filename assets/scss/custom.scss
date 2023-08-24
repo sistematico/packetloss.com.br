@@ -1,0 +1,13 @@
+$body-bg: #1A1A1A;
+// $body-color: #ffffff;
+$body-color: rgba(235, 235, 235, .6);
+
+$primary: #974EC3;
+$warning: #FE7BE5;
+$danger: #ff4136;
+
+$theme-colors: (
+  "primary": $primary,
+  "warning": $warning,
+  "danger": $danger
+);
