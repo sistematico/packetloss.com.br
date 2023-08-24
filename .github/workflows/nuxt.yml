@@ -1,4 +1,4 @@
-name: Vite Deploy
+name: Nuxt.js Deploy
 
 on:
   push:
@@ -36,3 +36,4 @@ jobs:
             cd ${{ secrets.PROJECT_PATH }}
             pnpm install
             pnpm run build
+            sudo /usr/bin/systemctl restart packetloss-nuxt.service

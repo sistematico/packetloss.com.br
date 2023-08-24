@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=nginx
 WorkingDirectory=/var/www/packetloss.com.br
-ExecStart=/usr/bin/pnpm run start
+ExecStart=/usr/local/bin/pnpm run start
 Restart=always
 
 [Install]
